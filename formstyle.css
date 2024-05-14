@@ -1,0 +1,29 @@
+input{
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.TitleFSize{
+    width: 100%;
+}
+.TextFSize{
+    border-radius: 10px;
+    border:none;
+    width: 100%;
+}
+.hidden {
+    display : none;
+}
+.inline {
+    position:absolute;
+}
+
+#search-form{
+    width: 69%;
+}
+#MainFSize{
+    width: 98%;
+}
+

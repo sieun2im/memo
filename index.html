@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttonstyle.css">
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="div.css">
+</head>
+<body style="background-color: rgb(255, 184, 205);">
+    <div class="rounded-box" id="box">
+        <h1 class="marginend">Note App</h1>
+        <h5 class="marginstart">Take notes and never forget</h5>
+        <form class ="inline" id="search-form">
+            <input id="MainFSize"
+            required
+            type="text"
+            placeholder="search"/>
+        </form>
+        <select  id="sort-select">
+            <option value="ascending">Sort by last edited</option>
+            <option value="descending">Sort by recently edited</option>
+            <option>Sort by alphabetically</option>
+        </select>
+        <p id="memolist">
+        </p>
+        <button id="create">create note</button>
+        <button class="hidden" id="Back">Back</button>
+        <form class="hidden" id="Title">
+            <input class="TitleFSize"
+            required
+            type="text"
+            placeholder="Note Title"/>
+            <button class="hidden" id="Done">Done</button>
+        </form>
+        <form class="hidden" id="Textarea" >
+            <textarea class="TextFSize"
+            required
+            type="text"
+            rows="23" 
+            cols="50" 
+            placeholder="search">
+            </textarea>
+        </form>       
+        <button class="hidden" id="Remove">Remove Note</button>
+    </div>
+    <script src="main.js"></script>
+    <script src="newnote.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+div{
+    margin-top: 7px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 12px; /* 모서리를 둥글게 만듭니다. */
+}
+#memolist{
+    margin-top: 70px;
+}
+.호호{
+    height: 70px;
+}
+.a{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}

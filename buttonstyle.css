@@ -1,0 +1,30 @@
+button{
+    margin-top:5px;
+    height: 30px;
+    width:auto;
+    border-radius: 10px;
+    border:none;
+}
+#create{
+    position: absolute;
+    top:93%;
+    right:2%;
+    background-color: blue;
+    color:white;
+    transform: translate(0%, -50%);
+}
+#Remove{
+    position: absolute;
+    top:93%;
+    background-color: red;
+    color:white;
+    transform: translate(0%, -50%);
+}
+#Done{
+    position: absolute;
+    top:93%;
+    right:2%;
+    background-color: blue;
+    color:white;
+    transform: translate(0%, -50%);
+}
